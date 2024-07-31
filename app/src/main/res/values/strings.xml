@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Women Safety</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to_women_safety_application">Welcome to Women Safety Application</string>
+    <string name="otp_validation">OTP Validation</string>
+    <string name="enter_the_otp_sent_to_your_phone_number">Enter the OTP sent to your phone number</string>
+    <string name="otp">OTP</string>
+    <string name="validate_otp">Validate OTP</string>
+    <string name="signup">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="signuup">Sign Up</string>
+    <string name="women_safety_application">Women Safety Application</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="phonenumber">Phone Number</string>
+</resources>
