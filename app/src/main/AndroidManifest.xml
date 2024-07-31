@@ -2,6 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.womensafety">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,9 +28,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity"
+            android:exported="true"
             tools:ignore="MissingClass" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".OtpValidationActivity" />
+        <activity android:name=".LoginActivity"
+            android:exported="true" />
+        <activity android:name=".OtpValidationActivity"
+            android:exported="true"
+            tools:ignore="MissingClass" />
 
     </application>
 
